@@ -138,3 +138,43 @@ body.dark-theme {
 .dark-theme::-webkit-scrollbar-thumb:hover {
   background-color: hsl(19, 8%, 37%);
 }
+
+/* Reusable css */
+.container {
+  max-width: 1024px;
+  margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 1rem;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  font-family: var(--title-font);
+  margin-bottom: 1.5rem;
+}
+.about__title {
+  color: aliceblue;
+}
+.section__subtitle {
+  display: block;
+  font-size: var(--h2-font-size);
+  font-family: var(--subtitle-font);
+  color: var(--first-color);
+  margin-bottom: 0.5rem;
+}
+
+.section__title,
+.section__subtitle {
+  text-align: center;
+}
+
+.main {
+  overflow: hidden; /* For animation ScrollReveal */
+}
