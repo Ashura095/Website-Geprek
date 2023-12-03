@@ -127,5 +127,5 @@ sr.reveal(`.popular__card`, { interval: 115 });
 
 // pesan saya :)
 function tampilAlert() {
-  alert("Fitur ini Masih belum tersedia ");
+  alert("Fitur ini Masih belum tersedia 😱");
 }
