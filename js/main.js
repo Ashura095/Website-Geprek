@@ -124,3 +124,8 @@ sr.reveal(`.home__data`, { origin: "bottom" });
 sr.reveal(`.about__data, recently__data`, { origin: "left" });
 sr.reveal(`.about__img, recently__img`, { origin: "right" });
 sr.reveal(`.popular__card`, { interval: 115 });
+
+// pesan saya :)
+function tampilAlert() {
+  alert("Fitur ini Masih belum tersedia ");
+}
