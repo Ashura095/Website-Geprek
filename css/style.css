@@ -450,6 +450,13 @@ body.dark-theme {
   margin: 0 auto;
   transition: transform 0.4s;
 }
+#popular__img_esteh{
+  max-width: 170;
+}
+#popular__img_gpreksmbl{
+max-width: 270px;
+}
+
 
 .popular__name {
   font-size: var(--h3-font-size);
@@ -597,7 +604,7 @@ body.dark-theme {
 }
 
 .newsletter__spinach {
-  width: 30px;
+  width: 70px;
   position: absolute;
   right: 2rem;
   bottom: -2rem;
@@ -691,7 +698,7 @@ body.dark-theme {
 
 .footer__onion,
 .footer__spinach {
-  width: 30px;
+  width: 70px;
   position: absolute;
 }
 
