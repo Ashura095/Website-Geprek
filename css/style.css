@@ -450,13 +450,12 @@ body.dark-theme {
   margin: 0 auto;
   transition: transform 0.4s;
 }
-#popular__img_esteh{
+#popular__img_esteh {
   max-width: 170;
 }
-#popular__img_gpreksmbl{
-max-width: 270px;
+#popular__img_gpreksmbl {
+  max-width: 270px;
 }
-
 
 .popular__name {
   font-size: var(--h3-font-size);
@@ -997,7 +996,7 @@ max-width: 270px;
   .recently__data-img {
     width: 30px;
     top: 5.5rem;
-    right: 2.5rem;
+    right: 0.5rem;
   }
 
   .recently__img {
@@ -1124,10 +1123,9 @@ max-width: 270px;
     left: -6rem;
     top: -1rem;
   }
-  #pesan_geprek{
+  #pesan_geprek {
     margin-top: auto;
     max-width: 500px;
-    
   }
 
   .newsletter__content {
