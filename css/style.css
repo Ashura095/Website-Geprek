@@ -1119,10 +1119,17 @@ max-width: 270px;
     width: 150px;
   }
   .newsletter__img {
-    width: 250px;
+    width: 300px;
     position: relative;
-    left: -8rem;
+    left: -6rem;
+    top: -1rem;
   }
+  #pesan_geprek{
+    margin-top: auto;
+    max-width: 500px;
+    
+  }
+
   .newsletter__content {
     grid-template-columns: 198px 390px;
     align-items: center;
